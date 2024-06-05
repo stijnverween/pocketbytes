@@ -22,4 +22,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update design tokens
-          branch: specify
+          # TODO: can this be dynamic?
+          branch: updateFigma
